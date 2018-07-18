@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/priya"
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/pink"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="253dp"
+        android:layout_height="29dp"
+        android:layout_alignStart="@+id/priya"
+        android:layout_below="@+id/priya"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/Qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:text="@string/qualification" />
+
+    <TextView
+        android:id="@+id/faebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Qualification"
+        android:text="@string/facebook0" />
+
+    <TextView
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/twitter00" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/twitter"
+        android:text="@string/desgination1" />
+
+</RelativeLayout>
